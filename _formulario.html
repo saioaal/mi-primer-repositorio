@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Formulario</title>
-        <link rel="stylesheet" href="./css/formulario.css">      
+        <link rel="stylesheet" href="./css/formulario.css">            
         
     </head>
    
@@ -31,22 +31,22 @@
                     <br> 
                     <li>
                         <label for="username">Alegias:</label>
-                        <li>
-                            <label for="username">Lactosa</label>
+                        <li>                            
                             <input type="checkbox" name="lactosa" id="lactosa">
+                            <label for="username">Lactosa</label>
                         </li>
-                        <li>
-                            <label for="username">Gluten</label>
+                        <li>                            
                             <input type="checkbox" name="gluten" id="gluten">
+                            <label for="username">Gluten</label>
                         </li>
                         
-                        <li>
-                            <label for="username">Frutos secos</label>
+                        <li>                            
                             <input type="checkbox" name="frutos secos" id="frutos secos">
+                            <label for="username">Frutos secos</label>
                         </li>
-                        <li>
-                            <label for="username">Polen</label>
+                        <li>                            
                             <input type="checkbox" name="polen" id="polen">
+                            <label for="username">Polen</label>    
                         </li> 
                                                
                    
@@ -66,26 +66,29 @@
                     <br>
                     <li> 
                         <fieldset>                                           
-                        <input type="radio"id=hombre>  
+                        <input type="radio"name="sexo" id=hombre>  
                         <label for="hombre">Hombre</label>                                              
                     </li>
                     <li>
                         <fieldset>                                           
-                        <input type="radio"id=mujer>
+                        <input type="radio"name="sexo" id=mujer>
                         <label for="mujer">Mujer</label>
                         </fieldset>                                                
                     </li>
                     <li>
                         <fieldset>                         
-                        <input type="radio"id=otro> 
+                        <input type="radio" name="sexo" id=otro> 
                         <label for="otro">Otro</label> 
                         </fieldset>                                            
                     </li> 
                     <br>
                     <li>
-                        <input type="checkbox"id=aceptar><span style="color: blue;">*</span> 
+                        <input type="checkbox"id=aceptar>
                         <label>Aceptar envio</label>                        
-                    </li>                         
+                    </li>  
+                    <li>
+                        <label><span style="color: rgb(255, 0, 0);">*</span>Son campos obligatrorios</label>
+                    </li>                       
                     
                 </ul>
                 <div class="contenedor">
