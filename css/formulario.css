@@ -1,0 +1,34 @@
+.contenedor{
+display:grid;
+place-items:center;
+}
+
+.lista1{
+background: rgb(241, 241, 92);
+border:black solid;
+padding: 20px;
+width: 500px;
+height: 600px;
+border-radius: 60px;
+border-color: rgba(1, 1, 17, 0.582);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista2{
+background: #72a9dd;
+list-style-type: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fieldset {
+    width: 500px;
+    border:10px solid;      
+}
+
+
+
+
+li{
+    list-style-type: none;   
+    
+}
